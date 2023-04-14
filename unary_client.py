@@ -31,3 +31,5 @@ if __name__ == "__main__":
         print(f"{result}")
         opc = str(input("Deseja realizar outra solicitação? Y/N"))
         opc = opc.upper()
+        if opc == 'N':
+            break
